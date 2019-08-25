@@ -34,9 +34,3 @@ for i in range(0, num_page):
     pid_construct = "%s%%2C%s" % (pid_list[i][0], pid_list[i][1])
     print("https://news.google.com/newspapers?id=%s&sjid=%s&pg=%s&img=1&hl=en&h=1000"
           % (id,id,pid_construct))
-
-#
-# test = "768%2C353331"
-#
-# print("https://news.google.com/newspapers?id=%s&sjid=%s&pg=%s&img=1&hl=en&h=1000"
-#         % (id,id,test))
